@@ -13,7 +13,6 @@ public class ApplicationDB {
 	public Connection getConnection(){
 		
 		//Create a connection string
-		String connectionUrl = "jdbc:mysql://databasesprojectgroup57.cy6jfcpggxru.us-east-2.rds.amazonaws.com:3306/TrainSystem";
 		Connection connection = null;
 		
 		try {
